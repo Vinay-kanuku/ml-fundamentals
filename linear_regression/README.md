@@ -1,5 +1,3 @@
- 
-
 # Linear Regression: Complete Notes
 
 ## 1. **Problem Definition**
@@ -40,7 +38,7 @@ Gradient of MSE:
 **$$
 \nabla_\beta J = \frac{2}{m} X^T (X\beta - y)
 $$**
-![alt text](image-1.png)
+![alt text](artifacts/image-1.png)
 This compact matrix formula abstracts the partial derivatives of both bias and slope terms.
 
 ---
@@ -71,8 +69,8 @@ $$**
 
 Visualisation:
 
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](artifacts/image-2.png)
+![alt text](artifacts/image-3.png)
 
 * Loss decreasing over iterations.
 * GD path converging on the MSE loss surface for a 2D toy example.
@@ -83,10 +81,10 @@ Visualisation:
 
 For regression tasks:
 
-* **MSE:** mean squared error. ![alt text](image-4.png)
-* **RMSE:** root mean squared error. ![alt text](image-5.png)
-* **MAE:** mean absolute error. ![alt text](image-6.png)
-* **R² (coefficient of determination):** ![alt text](image-7.png)
+* **MSE:** mean squared error. ![alt text](artifacts/image-4.png)
+* **RMSE:** root mean squared error. ![alt text](artifacts/image-5.png)
+* **MAE:** mean absolute error. ![alt text](artifacts/image-6.png)
+* **R² (coefficient of determination):** ![alt text](artifacts/image-7.png)
 
  **$$
   R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}
@@ -171,4 +169,3 @@ Before moving to logistic regression, it’s strongly recommended to:
 Then you’ll be fully prepared to tackle classification tasks with logistic regression.
 
 ---
- 
