@@ -86,9 +86,9 @@ For regression tasks:
 * **MAE:** mean absolute error. ![alt text](artifacts/image-6.png)
 * **R² (coefficient of determination):** ![alt text](artifacts/image-7.png)
 
- **$$
-  R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}
-  $$**
+$$
+R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}
+$$
 
 
 * **Adjusted R²:**
